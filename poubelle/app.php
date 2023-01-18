@@ -9,6 +9,11 @@ if(isset($_GET['form_name']) && isset($_GET['form_password']) && isset($_GET['fo
             $mysqli = new mysqli("localhost", "projet_formation", "040904Adanledj1", "shoes_shop");
             if($mysqli){
                 // créer utilisateur dans mysql
+                /*créer utilisateur dans mysql= 
+                - CREATE USER php_adrar@localhost IDENTIFIED BY "040904Admin";
+                - Aller dasn ROOT choisir privilèges
+                - renseigner mysqli
+                 */
                 //connection
                 echo "<p>Connexion réussie. </p>";
                 //insert data
